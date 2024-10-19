@@ -1,0 +1,90 @@
+body{
+    font: arial;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://image.api.playstation.com/vulcan/ap/rnd/202106/2322/FEhFbXbOMnlh1y8Mi9dPuJHQ.png);
+    background-size: cover;
+}
+
+header{
+    justify-content: center;
+     display: flex;
+     align-items: center;
+     padding: 20px;
+     background: linear-gradient(to right, rgba(228, 232, 98, 0.509), rgba(255, 255, 255, 0.509));
+     box-shadow: 0 5px 6px;
+     overflow: hidden;
+    }
+
+header img{
+    display: block;
+    margin-left: 40%;
+    max-width: 250px;
+    border-radius: 5px;
+}
+
+h1{
+    display: block;
+    margin: 0;
+    font-size: 26px;
+
+}
+
+section{
+    overflow: hidden;
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 5px 6px;
+    margin: auto;
+    background-color: rgba(192, 191, 191, 0.511);
+    color: black;
+
+}
+
+section p{
+    font-size: 18px;
+    font: arial;
+}
+
+section img{
+
+    display: block;
+    max-width: 400px;
+    align-items: center;
+    margin: auto;
+    border-radius: 5px;
+}
+
+table{
+    margin: 30px;
+    border-collapse: collapse;
+    width: 90%;
+    background-color: rgba(192, 191, 191, 0.511);
+    box-shadow: 2px 3px 6px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table, th, td{
+    border: 1px solid black;
+    font: arial;
+}
+
+th, td{
+    padding: 10px;
+    text-align: center;
+}
+
+th{
+    background-color: rgba(255, 255, 255, 0.398);
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+    background: linear-gradient(to right, rgba(228, 232, 98, 0.709), rgba(255, 255, 255, 0.726));
+}
